@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('pull') {
             steps {
-              git branch: 'main' , url: 'git branch: 'main', url: 'https://github.com/iamtruptimane/ChatBot-Deployment.git''
+              git branch: 'main' ,  url: 'https://github.com/iamtruptimane/ChatBot-Deployment.git''
                 
             }
         }
