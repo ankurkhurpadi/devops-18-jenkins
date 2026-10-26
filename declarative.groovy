@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('pull') {
             steps {
-             git branch: 'main', url: 'https://github.com/ankurkhurpadi/devops-18-jenkins.git'
+              git branch: 'main', url: 'https://github.com/iamtruptimane/ChatBot-Deployment.git'
+                
             }
         }
         stage('Build') {
